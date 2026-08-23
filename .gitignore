@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift PM
+.build/
+.swiftpm/
+
+# Cursor / editor
+.idea/
+agent-tools/
