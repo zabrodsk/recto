@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000002 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000001 /* AppStore.swift */; };
+		A00000000000000000000004 /* AllNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000003 /* AllNotesView.swift */; };
+		A00000000000000000000006 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000005 /* Components.swift */; };
+		A00000000000000000000008 /* FolderNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000007 /* FolderNotesView.swift */; };
+		A0000000000000000000000A /* NoteEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000009 /* NoteEditorView.swift */; };
+		A0000000000000000000000C /* NotePDFRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000B /* NotePDFRenderer.swift */; };
+		A0000000000000000000000E /* PdfExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000D /* PdfExportView.swift */; };
+		A00000000000000000000010 /* ProPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000F /* ProPaywallView.swift */; };
+		A00000000000000000000012 /* RectoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000011 /* RectoApp.swift */; };
+		A00000000000000000000014 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000013 /* RootView.swift */; };
+		A00000000000000000000016 /* TaskCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000015 /* TaskCenterView.swift */; };
+		A00000000000000000000018 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000017 /* Theme.swift */; };
+		A0000000000000000000001A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000019 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000001 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		A00000000000000000000003 /* AllNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNotesView.swift; sourceTree = "<group>"; };
+		A00000000000000000000005 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		A00000000000000000000007 /* FolderNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderNotesView.swift; sourceTree = "<group>"; };
+		A00000000000000000000009 /* NoteEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorView.swift; sourceTree = "<group>"; };
+		A0000000000000000000000B /* NotePDFRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePDFRenderer.swift; sourceTree = "<group>"; };
+		A0000000000000000000000D /* PdfExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfExportView.swift; sourceTree = "<group>"; };
+		A0000000000000000000000F /* ProPaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProPaywallView.swift; sourceTree = "<group>"; };
+		A00000000000000000000011 /* RectoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectoApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000013 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A00000000000000000000015 /* TaskCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCenterView.swift; sourceTree = "<group>"; };
+		A00000000000000000000017 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A00000000000000000000019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00000000000000000000023 /* Recto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0000000000000000000001D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000020 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000022 /* Recto */,
+				A00000000000000000000021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000023 /* Recto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000022 /* Recto */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000001 /* AppStore.swift */,
+				A00000000000000000000003 /* AllNotesView.swift */,
+				A00000000000000000000005 /* Components.swift */,
+				A00000000000000000000007 /* FolderNotesView.swift */,
+				A00000000000000000000009 /* NoteEditorView.swift */,
+				A0000000000000000000000B /* NotePDFRenderer.swift */,
+				A0000000000000000000000D /* PdfExportView.swift */,
+				A0000000000000000000000F /* ProPaywallView.swift */,
+				A00000000000000000000011 /* RectoApp.swift */,
+				A00000000000000000000013 /* RootView.swift */,
+				A00000000000000000000015 /* TaskCenterView.swift */,
+				A00000000000000000000017 /* Theme.swift */,
+				A00000000000000000000019 /* Assets.xcassets */,
+			);
+			path = Recto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0000000000000000000001E /* Recto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000025 /* Build configuration list for PBXNativeTarget "Recto" */;
+			buildPhases = (
+				A0000000000000000000001B /* Sources */,
+				A0000000000000000000001D /* Frameworks */,
+				A0000000000000000000001C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recto;
+			productName = Recto;
+			productReference = A00000000000000000000023 /* Recto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0000000000000000000001F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = Recto;
+				TargetAttributes = {
+					A0000000000000000000001E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A00000000000000000000024 /* Build configuration list for PBXProject "Recto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000020;
+			productRefGroup = A00000000000000000000021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0000000000000000000001E /* Recto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0000000000000000000001C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000000000000000000001A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0000000000000000000001B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000002 /* AppStore.swift in Sources */,
+				A00000000000000000000004 /* AllNotesView.swift in Sources */,
+				A00000000000000000000006 /* Components.swift in Sources */,
+				A00000000000000000000008 /* FolderNotesView.swift in Sources */,
+				A0000000000000000000000A /* NoteEditorView.swift in Sources */,
+				A0000000000000000000000C /* NotePDFRenderer.swift in Sources */,
+				A0000000000000000000000E /* PdfExportView.swift in Sources */,
+				A00000000000000000000010 /* ProPaywallView.swift in Sources */,
+				A00000000000000000000012 /* RectoApp.swift in Sources */,
+				A00000000000000000000014 /* RootView.swift in Sources */,
+				A00000000000000000000016 /* TaskCenterView.swift in Sources */,
+				A00000000000000000000018 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+
+			};
+			name = Debug;
+		};
+		A00000000000000000000027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+
+			};
+			name = Release;
+		};
+		A00000000000000000000028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Recto;
+				INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.productivity;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.recto.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+
+			};
+			name = Debug;
+		};
+		A00000000000000000000029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Recto;
+				INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.productivity;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.recto.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000024 /* Build configuration list for PBXProject "Recto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000026 /* Debug */,
+				A00000000000000000000027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000025 /* Build configuration list for PBXNativeTarget "Recto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000028 /* Debug */,
+				A00000000000000000000029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0000000000000000000001F /* Project object */;
+}
